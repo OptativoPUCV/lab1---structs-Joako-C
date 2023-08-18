@@ -39,14 +39,14 @@ los números pares del arreglo original.
 */
 int *filterEvenNumbers(int arr[], int size, int *newSize) {
   int* resultado = (int*)malloc(sizeof(int) * size);
-  *nuevoSize = 0;
+  *newSize = 0;
 
   if(resultado == NULL) exit(EXIT_FAILURE);
   
   for(int i = 0; i < size; i++) {
     if(arr[i] % 2 == 0){
-      resultado[*nuevoSize] = arr[i];
-      (*nuevoSize)++;
+      resultado[*newSize] = arr[i];
+      (*newSize)++;
     }
   }
   return resultado;
