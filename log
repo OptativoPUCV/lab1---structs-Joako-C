@@ -116,3 +116,9 @@ exercises.c:61:5: error: statement with no effect [-Werror=unused-value]
 cc1: all warnings being treated as errors
 Compilation failed
 1082fa2
+Sat 19 Aug 2023 12:14:31 AM UTC: 
+ exercises.c | 21 ++++++++++++++-------
+ 1 file changed, 14 insertions(+), 7 deletions(-)
+ tests:  0|3
+total_score: 40/70
+b2c908d
