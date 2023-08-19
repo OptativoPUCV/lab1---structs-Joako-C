@@ -152,3 +152,9 @@ exercises.c:131:33: error: ‘anioNacimientoAutor’ undeclared (first use in th
 exercises.c:131:33: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 c6930b7
+Sat 19 Aug 2023 12:22:24 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|1
+total_score: 60/70
+b494dca
