@@ -99,3 +99,20 @@ exercises.c:61:36: note: each undeclared identifier is reported only once for ea
 cc1: all warnings being treated as errors
 Compilation failed
 646d241
+Sat 19 Aug 2023 12:13:02 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:61:11: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+   61 |     for (i, j, k; i < size1 && j < size2; ) {
+      |           ^
+exercises.c:61:14: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+   61 |     for (i, j, k; i < size1 && j < size2; ) {
+      |              ^
+exercises.c:61:5: error: statement with no effect [-Werror=unused-value]
+   61 |     for (i, j, k; i < size1 && j < size2; ) {
+      |     ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+1082fa2
