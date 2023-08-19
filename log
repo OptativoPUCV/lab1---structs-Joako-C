@@ -47,3 +47,19 @@ Fri 18 Aug 2023 11:27:16 PM UTC:
  tests:  0|4
 total_score: 30/70
 a1e9332
+Sat 19 Aug 2023 12:11:05 AM UTC: 
+ exercises.c | 18 ++++++++++++++++--
+ 1 file changed, 16 insertions(+), 2 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:62:9: error: ‘resultado’ undeclared (first use in this function); did you mean ‘result’?
+   62 |         resultado[k++] = (arr1[i] < arr2[j]) ? arr1[i++] : arr2[j++];
+      |         ^~~~~~~~~
+      |         result
+exercises.c:62:9: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c: At top level:
+exercises.c:73:1: error: expected identifier or ‘(’ before ‘}’ token
+   73 | }
+      | ^
+Compilation failed
+5720cab
